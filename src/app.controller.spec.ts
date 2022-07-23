@@ -24,7 +24,7 @@ describe('AppController', () => {
     });
 
     it('add result should be correct', () => {
-      expect(appController.add({ a: 10, b: 20 })).toBe(30);
+      expect(appController.add({ first: 10, second: 20 })).toBe(30);
     });
   });
 });

@@ -3,9 +3,9 @@ import { IsNotEmpty, IsString } from 'class-validator';
 export class AppDto {
   @IsNotEmpty()
   @IsString()
-  a: number;
+  first: number;
 
   @IsNotEmpty()
   @IsString()
-  b: number;
+  second: number;
 }
